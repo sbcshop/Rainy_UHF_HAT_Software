@@ -1,29 +1,70 @@
 # Rainy UHF HAT Software
-<!-- 
-<img src="">
 
-Device is rapid multi-tag reading/Writing device for efficient and effective inventory management.
--->
+<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/FeatureBanner_RainyUHF_HAT.jpg">
+
+UHF RFID technology with the Rainy HAT, an advanced RFID module engineered to integrate effortlessly with your Raspberry Pi board using standard 40 pin GPIOs header. Whether you're a hobbyist or a professional, this module offers a powerful and flexible solution for RFID applications, making it an ideal choice for exploring and deploying high-speed inventory tracking systems.
 
 This github page provides a getting started guide and other working details for the Rainy UHF HAT for Raspberry Pi. 
 
-<!-- 
+### Features:
+- **Standard 40 Pin Header** to seamlessly integrate with Raspberry Pi variants
+- **1.14"** TFT Display for visual interaction
+- **SMA Antenna port** to connect antenna of choice for increased range 1-20m
+- Onboard **Buzzer** and **User** LED to show or add alert for any activity
+- **Programmable Buttons** for adding additional control features
+- **USB Type-C** interface for Rainy UHF module access
+- **Jumper option** to choose between switch mode, so you can use onboard UHF either with Raspberry Pi or direct access with software
+ 
+### Specifications:
+- **Microcontoller**  : Raspberry Pi and compatible Boards
+- **Supply Voltage:** 5V
+- **Operating Pin:** 3.3V ~ 5V
+- **Display Size**: 1.14"
+- **Display Resolution**: 135x240 pixels
+- **Communication Interface:** TTL (UART), Type C
+- **Frequency:** EU 865-868MHz or US 902-928MHz
+- **Protocol:** ISO 18000-6C (EPC Gen 2)
+- **Read speed:** Multi-tag,1-60tags/second (depend on antenna/tag and application)
+- **Read range:**- 1-20m (depend on tag, antenna and application)
+- **Read/Write Capability:** Yes
+- **RF Power Output:** 15-26 dBm(adjustable)
+- **Cooling Method:** Air cooling (no external heat sink required)
+- **Antenna port:** 1 port ,SMA
+- **Estimated Antenna Range:** 
+     - **3dBi Antenna:** 0-2m Range
+     - **5.5dBi Antenna:** 0-5m Range
+       
+## Getting Started with Rainy UHF for ESP32
+### Pinout 
+<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/Rainy_UHF_HAT_Pinouts.jpg" width="" height=""> 
+
+<!--
+### Interfacing Details
+
+
+### 1. Configure and Setup Development Environment
+-->
+
+## Rainy UHF Module with Application
+  * You can use Rainy UHF HAT module directly with application. For this change jumper setting USB-UHF mode and connect hardware to laptop/PC using Type C as shown below.
+    
+    <img src="" width="" height="">
+  
+  * Now you can follow steps mentioned [here](https://github.com/sbcshop/Rainy_UHF_Breakout_Software#rainy-uhf-breakout-standalone) to use Rainy UHF module with standalone windows application.
+
 ## Resources
-  * [Schematic](https://github.com/sbcshop/UHF_Reader_Pico_W_Hardware/blob/main/Design%20Data/UHF%20Reader%20for%20Pico%20W%20SCH.pdf)
-  * [Hardware Files](https://github.com/sbcshop/UHF_Reader_Pico_W_Hardware)
-  * [Step File](https://github.com/sbcshop/UHF_Reader_Pico_W_Hardware/blob/main/Mechanical%20Data/Step%20UHF%20reader%20for%20pico%20.step)
-  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
-  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
-  * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
-  * [UHF Command Manual](https://github.com/sbcshop/UHF_Reader_Pico_W_Software/blob/main/documents/UHF%20Commands%20Manual.pdf)
+  * [Schematic](https://github.com/sbcshop/Rainy_UHF_HAT_Hardware/blob/main/Design%20Data/Rainy%20UHF%20HAT%20SCH.%20PDF.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Rainy_UHF_HAT_Hardware)
+  * [Getting Started with Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+  * [Rainy UHF Module Command Manual](https://github.com/sbcshop/Rainy_UHF_Breakout_Software/blob/main/Document/Rainy%20UHF%20Module%20Command%20Manual.pdf)
+  * [CH340 Driver Installation Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf)
 
 
 ## Related Products
-   * [UHF Reader for ESP32](https://shop.sb-components.co.uk/products/uhf-reader-based-on-pico-w-esp32?variant=40586828480595) - UHF Reader powered by ESP32 S3 WROOM - 1
-   * [Ardi UHF Shield](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) - UHF based shield with Oled display and Buzzer onboard
-   * [UHF Lite HAT](https://shop.sb-components.co.uk/products/uhf-rfid-lite-hat) - Raspberry Pi Version
-   * [UHF Lite Expansion for Raspberry Pi Pico](https://shop.sb-components.co.uk/products/uhf-rfid-for-pico?_pos=5&_sid=75312e089&_ss=r): UHF Lite Expansion to use with Pico/ Pico W
--->
+  * [Rainy UHF Pico Expansion](https://shop.sb-components.co.uk/products/rainypi-uhf-based-on-pico-complete-kit) -  UHF Expansion board easily incorporate Pico/Pico W/Pico 2
+  * [Rainy UHF for ESP32](https://shop.sb-components.co.uk/products/rainyfi-uhf-for-esp32-complete-board-kit) - UHF module with embedded ESP32 S3 for IoT prototyping.
+  * [Rainy UHF SHIELD](https://shop.sb-components.co.uk/products/rainy-shield-for-arduino-board-complete-kit) - UHF Shield form factor for use with Arduino, Ardi-32, Ardi-Pi, and other compatible boards.
+  * [Rainy UHF Breakout](https://shop.sb-components.co.uk/products/rainy-uhf-breakout-complete-kit) - Compact UHF module breakout with Type C for standalone use and TTL for interfacing with various MCU.
 
 ## Product License
 
