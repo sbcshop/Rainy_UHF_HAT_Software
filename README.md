@@ -35,20 +35,36 @@ This github page provides a getting started guide and other working details for 
      - **5.5dBi Antenna:** 0-5m Range
        
 ## Getting Started with Rainy UHF for ESP32
-### Pinout 
+### Pinout:
 <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/Rainy_UHF_HAT_Pinouts.jpg" width="" height=""> 
 
-### Interfacing Details
+### Interfacing Details:
+Following GPIO pins consumed when Rainy UHF HAT connected on Raspberry Pi,
 
-<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainUHFHAT_withPI.png" width="" height=""> 
+<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/interfacing_info.png" width="440" height="345"> 
 
-<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/interfacing_info.png" width="474" height="370"> 
+**You have two options to use Rainy UHF HAT,**
+- _1) HAT with Raspberry Pi and examples_
+- _2) HAT with Windows application_
 
-<!--
-### 1. Configure and Setup Development Environment
--->
+## 1) Rainy UHF HAT with Raspberry Pi
+ - For this connect HAT on Raspberry Pi and set jumper on HAT-UHF side as shown below. Also, make sure to connect suitable Antenna using SMA connector onboard.
 
-## Rainy UHF Module with Application
+   <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainUHFHAT_withPI.png" width="331" height="236">
+
+ * Download and setup your Raspberry Pi with OS, you can follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS installation.
+ * You will have to enable Serial and SPI interface in Raspberry Pi, find instruction [here](https://github.com/sbcshop/Pitalk_4G_HAT_Software/blob/main/Documents/Serial%20Interface%20Enable%20RPi.pdf) 
+ * Download complete github to Raspberry Pi,
+   ```
+   git clone https://github.com/sbcshop/Rainy_UHF_HAT_Software.git
+   ```
+ * Open anyone [example]() code in python IDE like IDLE, Thonny, etc. and run
+ <!--
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_codes.png" width="495" height="190">
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_run.png" width="1094" height="590">
+ -->
+
+## 2) Rainy UHF HAT with Windows Application
   * You can use Rainy UHF HAT module directly with application. For this change jumper setting USB-UHF mode and connect hardware to laptop/PC using Type C as shown below.
     
     <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainyUHFHAT_withApp.png" width="" height="">
