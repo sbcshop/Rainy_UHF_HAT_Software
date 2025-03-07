@@ -13,7 +13,7 @@ This github page provides a getting started guide and other working details for 
 - Onboard **Buzzer** and **User** LED to show or add alert for any activity
 - **Programmable Buttons** for adding additional control features
 - **USB Type-C** interface for Rainy UHF module access
-- **Jumper option** to choose between switch mode, so you can use onboard UHF either with Raspberry Pi or direct access with software
+- **Jumper option** to switch mode, so you can use onboard UHF either with Raspberry Pi or direct access with software
  
 ### Specifications:
 - **Microcontoller**  : Raspberry Pi and compatible Boards
