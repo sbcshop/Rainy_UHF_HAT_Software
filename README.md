@@ -38,17 +38,20 @@ This github page provides a getting started guide and other working details for 
 ### Pinout 
 <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/Rainy_UHF_HAT_Pinouts.jpg" width="" height=""> 
 
-<!--
 ### Interfacing Details
 
+<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainUHFHAT_withPI.png" width="" height=""> 
 
+<img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/interfacing_info.png" width="474" height="370"> 
+
+<!--
 ### 1. Configure and Setup Development Environment
 -->
 
 ## Rainy UHF Module with Application
   * You can use Rainy UHF HAT module directly with application. For this change jumper setting USB-UHF mode and connect hardware to laptop/PC using Type C as shown below.
     
-    <img src="" width="" height="">
+    <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainyUHFHAT_withApp.png" width="" height="">
   
   * Now you can follow steps mentioned [here](https://github.com/sbcshop/Rainy_UHF_Breakout_Software#rainy-uhf-breakout-standalone) to use Rainy UHF module with standalone windows application.
 
