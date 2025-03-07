@@ -16,7 +16,7 @@ This github page provides a getting started guide and other working details for 
 - **Jumper option** to switch mode, so you can use onboard UHF either with Raspberry Pi or direct access with software
  
 ### Specifications:
-- **Microcontoller**  : Raspberry Pi and compatible Boards
+- **Microcontoller**  : Raspberry Pi 3, 4, 5, zero and compatible Boards
 - **Supply Voltage:** 5V
 - **Operating Pin:** 3.3V ~ 5V
 - **Display Size**: 1.14"
