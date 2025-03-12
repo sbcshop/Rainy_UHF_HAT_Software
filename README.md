@@ -58,7 +58,7 @@ Following GPIO pins consumed when Rainy UHF HAT connected on Raspberry Pi,
    ```
    git clone https://github.com/sbcshop/Rainy_UHF_HAT_Software.git
    ```
- * Open anyone [example]() code in python IDE like IDLE, Thonny, etc. and run
+ * Open anyone [example](https://github.com/sbcshop/Rainy_UHF_HAT_Software/tree/main/examples) code in python IDE like IDLE, Thonny, etc. and run
  <!--
   <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_codes.png" width="495" height="190">
   <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_run.png" width="1094" height="590">
