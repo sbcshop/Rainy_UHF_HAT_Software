@@ -18,7 +18,7 @@ This github page provides a getting started guide and other working details for 
 ### Specifications:
 - **Microcontoller**  : Raspberry Pi 3, 4, 5, zero and compatible Boards
 - **Supply Voltage:** 5V
-- **Operating Pin:** 3.3V ~ 5V
+- **Operating Pin:** 3.3V
 - **Display Size**: 1.14"
 - **Display Resolution**: 135x240 pixels
 - **Communication Interface:** TTL (UART), Type C
@@ -34,7 +34,7 @@ This github page provides a getting started guide and other working details for 
      - **3dBi Antenna:** 0-2m Range
      - **5.5dBi Antenna:** 0-5m Range
        
-## Getting Started with Rainy UHF for ESP32
+## Getting Started with Rainy UHF HAT
 ### Pinout:
 <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/Rainy_UHF_HAT_Pinouts.jpg" width="" height=""> 
 
